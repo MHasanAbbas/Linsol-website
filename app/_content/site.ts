@@ -25,32 +25,46 @@ export const heroHighlights = [
 
 export const serviceAreas = [
   {
-    title: "Linux Platform Engineering",
+    title: "Linux Support",
     description:
-      "Design, stabilise and modernise Linux estates with consistent operating standards, patching, access control and automation.",
-    scope:
-      "Covers baseline design, operating model improvements and estate standardisation.",
+      "Support for Linux environments that need steadier operations, clearer ownership and more predictable maintenance.",
+    ctaLabel: "Discuss Linux support",
+    ctaHref: "#health-check",
   },
   {
-    title: "DevOps Enablement",
+    title: "Emergency Linux Rescue",
     description:
-      "Improve software delivery and infrastructure change with pipelines, release discipline and practical automation.",
-    scope:
-      "Covers CI/CD patterns, workflow design, deployment controls and team handoffs.",
+      "Short-notice technical help for unstable servers, failed platform changes and production issues that need controlled recovery.",
+    ctaLabel: "Plan a recovery review",
+    ctaHref: "#health-check",
   },
   {
-    title: "Cloud Infrastructure Consulting",
+    title: "DevOps Automation",
     description:
-      "Shape cloud platforms that are easier to operate, govern and recover when conditions change.",
-    scope:
-      "Covers landing zones, networking, infrastructure as code and operational readiness.",
+      "Reduce manual delivery work with repeatable automation across infrastructure, release workflows and operational controls.",
+    ctaLabel: "Explore automation support",
+    ctaHref: "#health-check",
   },
   {
-    title: "AI-Ready Infrastructure",
+    title: "Cloud Infrastructure",
     description:
-      "Prepare compute, storage, networking and observability foundations before AI workloads become operational dependencies.",
-    scope:
-      "Covers platform prerequisites, capacity planning and workload isolation strategy.",
+      "Design and improve cloud platforms with stronger governance, resilience and day-two operating discipline.",
+    ctaLabel: "Review cloud foundations",
+    ctaHref: "#health-check",
+  },
+  {
+    title: "Kubernetes and OpenShift",
+    description:
+      "Help teams establish or stabilise container platforms with practical attention to upgrades, access, networking and supportability.",
+    ctaLabel: "Talk about container platforms",
+    ctaHref: "#health-check",
+  },
+  {
+    title: "AI Infrastructure",
+    description:
+      "Prepare the compute, storage, networking and platform controls needed before AI workloads become operational dependencies.",
+    ctaLabel: "Assess AI infrastructure",
+    ctaHref: "#health-check",
   },
 ] as const;
 
