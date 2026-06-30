@@ -1,0 +1,16 @@
+
+> linsol-website@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.253.1:3000
+✓ Ready in 1879ms
+Creating turbopack project {
+  dir: 'C:\\Users\\DELL\\Documents\\projects\\linsol-website',
+  testMode: true
+}
+
+○ Compiling / ...
+ GET / 200 in 8.1s (next.js: 7.2s, application-code: 863ms)
+ GET / 200 in 262ms (next.js: 17ms, application-code: 245ms)
